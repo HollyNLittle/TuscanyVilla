@@ -102,41 +102,16 @@ nav#navvy.navbar.navbar-static-top {
 
 /*CHECKERBOARD*/
 
-div.background {
+/*div.background {
     background-image: url('Images/3b-348x348.jpg');
-}
-
-div.transbox {
-    margin: 30px;
-    background-color: #ffffff;
-    opacity: 0.6;
-}
-
-    div.transbox p {
-        margin: 5%;
-        font-weight: bold;
-        color: #000000;
-    }
-
-/*.blackbox{
-    color:#fff;
-    text-align:center;
-    background-image: url('Images/3b-348x348.jpg');
-    background-position:center;
-    padding-top:20px;
-    padding-bottom:20px;
 }*/
-/*.blackbox {
+
+.transbox {
+    margin: 15px;
+    padding: 15px;
+    background-color: rgbA(0,0,0,.5);
     color: white;
-
-    background-color: rgbA(71,78,93,.4);
-}*/
-.transbox{
-  margin: 30px;
-  padding:30px;
-  /*background-color: black;
-  color:white;*/
-  opacity: 0.2;
+    opacity: 0.5;
 }
 
 .receptions {
@@ -144,8 +119,8 @@ div.transbox {
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
-      background-color: black;
-  color:white;
+    background-color: black;
+    color: white;
 }
 
 .relax {
