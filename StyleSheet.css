@@ -1,75 +1,350 @@
-﻿body {
+﻿
+/*GLOBAL*/
+body {
     margin: 0px;
-    font-family: Mukta, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(249,249,249);
+    color: black;
 }
 
-/*navigation*/
+.jumbotron {
+    background: url("Images/tuscany-villas-sant-anna.jpg") center center;
+    width: 100%;
+    height: 560px;
+    background-size: cover;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    align-content: center;
+    border-radius: 0px;
+}
+
+    .jumbotron h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 80px;
+        font-weight: 800;
+        padding-top: 100px;
+    }
+
+.navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 5px;
+    color: rgb(51, 43, 34);
+}
+
+.locationRows {
+    padding: 5px;
+}
+
+article {
+    margin: 10px;
+    min-height: 50px;
+}
+
+    article img {
+        max-width: 80px;
+        height: auto;
+    }
+
+
+#myCarousel {
+    min-height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+    #myCarousel img {
+        min-height: 300px;
+    }
+
+
+article img {
+    min-width: 500px;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.checkerboard img {
+    padding: 15px;
+    background-color: white;
+}
+
+#showcase{
+    padding-bottom: 10px;
+    margin-bottom:30px;
+    background-color: white;
+}
+
+footer {
+    margin-top: 80px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 4px;
+    background-color: darkgrey;
+    line-height: 1px;
+}
+
+
+
+/*ul {
+    display: inline;
+    margin: 0px;
+}*/
+/*clockwise*/
+/*header li {
+    padding: 0px, 20px, 0px, 20px;
+}*/
+
+/*header nav {
+    margin-top: 10px;
+}
+
+header #branding h1 {
+}
+
+
+header .highlight, header .current a {
+    color: navy;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: teal;
+    font-weight: bold;
+    text-decoration: none;
+}*/
+
+
+
+
+
+/*button_1{
+    height:38px;
+    background-color:navy;
+    color:white;
+    border:0;
+    padding-left:20px;
+    padding-right:20px;
+}*/
+
+/*HEADER navigation*/
+/*header {
+    color: navy;
+}
+
+    header a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: mediumaquamarine;
+        font-size: 16px;
+        font-weight: bold;
+    }*/
+
+/*ul {
+    display: inline;
+    margin: 0px;
+}*/
+/*clockwise*/
+/*header li {
+    padding: 0px, 20px, 0px, 20px;
+}*/
+
+/*header nav {
+    margin-top: 10px;
+}
+
+header #branding h1 {
+}
+
+
+header .highlight, header .current a {
+    color: navy;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: teal;
+    font-weight: bold;
+    text-decoration: none;
+}*/
+
+/*JUMBOTRON*/
+/*.jumbotron h1, h3 {
+    background: url("Images/tuscany-villas-sant-anna.jpg") center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: cover;
+    margin: 0px;
+    background-color: white;
+    color: white;
+    font-size: 70px;
+}*/
+
+
+
+/*SHOWCASE*/
+/*#showcase {
+    min-height: 400px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+    #showcase h1 {
+        margin-top: 50px;
+        font-size: 55px;
+        margin-bottom: 10px;
+    }
+
+    #showcase p {
+        font-size: 20px;
+    }*/
+
+
+/**INFOREQUEST*/
+/*#inforequest {
+    color: aquamarine;
+    Background: navy;
+    padding: 15px;
+}
+#inforequest h1{
+    float:left;
+
+}
+#inforequest form{
+    float:right;
+    margin-top:15px;
+}
+
+#inforequest input[type=email]{
+    padding:4px;
+    height:25px;
+    width:250px;
+}*/
+
+
+/*BOXES*/
+/*#boxes{
+    margin-top:20px;
+}
+
+#boxes .box{
+float: left;
+width:30%;
+padding:10px;
+text-align:center;
+}
+
+#boxes .box img{
+    width:90px;
+}
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color:white;
+    background-color:navy;
+    text-align: center;
+}*/
+
+
+
+
+
+
+/*h1 {
+    font-family: Georgia, Times, Times New Roman, serif;
+}
+
+
+h2,
+h3,
+h4 {
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-size: 30px;
+}*/
+
+
+
+
+
+
+
+
+
+
+/*
+
 nav#navvy.navbar.navbar-static-top {
     margin: 0px;
     color: white;
-    background-color: rgb(71,78,93);
+    background-color: rgb(38, 55, 71);
+    font-weight: 700;
+}
+
+#star {
+    align-content: center;
 }
 
 #navvy a {
-    color: #fff6f0;
-}
-
-    #navvy a:hover {
-        background-color: #6a1525;
-    }
-
-/*header*/
-.jumbotron {
-    background-image: url('Images/tuscany-villas-sant-anna.jpg');
-    color: rgbA(255, 255, 255, .8);
-    font-size: large;
-    margin: 0px;
-    text-align: center;
-    background-size: cover;
-    background-repeat: space;
-    background-repeat: no-repeat;
-    min-width: 1000px;
-    min-height: 400px;
-    float: left;
-}
-
-.map {
-    background-size: cover;
-    background-image: url('Images/Versilia.jpg');
-    margin: 0px;
-    min-height: 400px;
-}
-/*ROWS*/
-.navyrow {
-    padding: 30px;
-    background-color: rgb(71,78,93);
     color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
     text-align: center;
 }
 
-.whiterow {
-    padding: 30px;
+#navvy a:hover {
+    color: rgb(38, 55, 27);
     background-color: white;
-    color: rgb(71,78,93);
-    text-align: center;
+}
+
+JUMBOTRON
+
+
+#headertitle {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
 }
 
 .locationrowswhite {
     padding: 30px;
     background-color: white;
-    color: rgb(71,78,93);
+    color: rgb(36, 51, 70);
     text-align: left;
+    max-height: 300px;
 }
 
 .locationrowsnavy {
     padding: 30px;
-    background-color: rgb(71,78,93);
+    background-color: rgb(38, 55, 71);
     color: white;
-    text-align: left;
+    text-align: right;
+    max-height: 300px;
 }
 
 .navyheader {
-    color: rgb(71,78,93);
+    color: rgb(38, 55, 71);
     background-color: white;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -77,34 +352,42 @@ nav#navvy.navbar.navbar-static-top {
 
 .whiteheader {
     color: white;
-    background-color: rgb(71,78,93);
+    background-color: rgb(38, 55, 71);
+}
+ROWS
+.navyrow {
+    padding: 0px;
+    background-color: rgb(38, 55, 71);
+    color: white;
+    text-align: center;
+}
+
+.whiterow {
+    padding: 0px;
+    background-color: white;
+    color: rgb(38, 55, 71);
+    text-align: center;
 }
 
 .img-responsive {
     display: block;
-    width: 500px;
-    height: auto;
+    width: 400px;
+    height: 300px;
     margin: 0px;
 }
 
-/*BUTTONS*/
+
+BUTTONS
 .navybutton {
     color: white;
-    background-color: rgb(71,78,93);
+    background-color: rgb(38, 55, 71);
     margin: 20px;
 }
 
 .whitebutton {
-    color: rgb(71,78,93);
+    color: rgb(38, 55, 71);
     margin: 20px;
 }
-
-
-/*CHECKERBOARD*/
-
-/*div.background {
-    background-image: url('Images/3b-348x348.jpg');
-}*/
 
 .transbox {
     margin: 15px;
@@ -119,8 +402,6 @@ nav#navvy.navbar.navbar-static-top {
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: black;
-    color: white;
 }
 
 .relax {
@@ -160,9 +441,9 @@ nav#navvy.navbar.navbar-static-top {
     margin: 0px;
 }
 
-.checkerBoardHeader {
+.checkerboardheader {
     color: white;
-    background-color: rgb(71,78,93);
+    background-color: rgb(38, 55, 71);
     text-align: center;
     margin: 100px;
     padding-top: 200px;
@@ -170,23 +451,27 @@ nav#navvy.navbar.navbar-static-top {
 
 .checkerBoardRow {
     background-color: white;
-    color: rgb(71,78,93);
+    color: rgb(38, 55, 71);
     text-align: center;
     margin: 0px;
 }
 
-/*reviews*/
+reviews
 h4 {
     font-style: italic;
 }
 
 .myCarousel {
-    max-height: 30px;
+    max-height: 40px;
 }
+
+    .myCarousel img {
+        height: 100%;
+    }
 
 .contactSection {
     padding: 30px;
     margin: 30px;
-    color: rgb(71,78,93);
+    color: rgb(38, 55, 71);
     text-align: left;
-}
+}*/
