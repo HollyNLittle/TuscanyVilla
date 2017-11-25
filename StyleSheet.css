@@ -3,92 +3,192 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 1.2;
     text-align: center;
-    font-size: 14px;
-    font-weight: 600;
-    background-color: rgb(249,249,249);
-    color: black;
-    /*overflow:hidden;*/
-}
-
-.jumbotron {
-    background: url("Images/tuscany-villas-sant-anna.jpg") center center;
-    width: 100%;
-    height: 700px;
-    background-size: cover;
-    color: white;
-    padding:0px;
-    margin-bottom: 0px;
-    text-align: center;
-    border-radius: 0px;
-}
-
-    .jumbotron h1 {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 80px;
-        font-weight: 800;
-        padding-top: 100px;
-    }
-
-.navbar-brand {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
+    font-size: 20px;
+    font-weight: 400;
+    /*background-color: rgb(252, 255, 236);*/
+    color: rgb(107, 93, 63);
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, rgb(255, 255, 255), rgb(170, 153, 109)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgb(255, 255, 255), rgb(170, 153, 109)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgb(255, 255, 255), rgb(170, 153, 109)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(170, 153, 109)); /* Standard syntax */
 }
 
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(82, 72, 51);
+}
+
+h1, h2, h4 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 p {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Tunga, Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
 }
 
-.locationRows {
-    padding: 5px;
+header {
+    color: rgb(163, 151, 125);
+    margin: 70px 0 20px 0;
+    padding-bottom: 20px;
+    font-weight: 800;
+    font-size: x-large;
 }
 
-.locationRows img{
-    min-width: 700px;
-    height: auto;
-}
-article {
+btn {
+    padding: 8px 30px;
     margin: 10px;
-    min-height: 50px;
+    /*round
+    border-radius:50%;*/
+    color: rgb(102, 92, 71);
+    border-radius: 10px;
+    background-color: rgb(210, 193, 159);
+    border: 1px solid rgb(201, 187, 150);
+    /*SAFARI*/
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.3s;
 }
 
-article img {
-    min-width: 700px;
-    height: auto;
+    btn:hover {
+        background-color: rgb(140, 124, 89);
+        color: white;
+        border: 2px solid rgb(201, 187, 150);
+    }
+
+    btn:current {
+        color: rgb(123, 117, 101);
+        background-color: rgb(232, 222, 191);
+        border: 1px solid rgb(123, 117, 101);
+    }
+
+
+.navbar {
+    background-color: gray;
+    color: rgb(163, 151, 125);
+    border: 1px solid rgb(123, 117, 101);
 }
+
+.navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: large;
+    padding: 10px 165px 0 60px;
+    color: rgb(122, 109, 82);
+}
+
+li {
+    padding: 0 10px 0 10px;
+    color: rgb(163, 151, 125);
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 10px;
+    padding: 8px 0 5px 0;
+    line-height: 1px;
+    background-color: rgb(150, 142, 111);
+    color: white;
+    opacity: .3;
+}
+
+
+/******HOME PAGE******/
+.jumbotron {
+    background: url("Images/tuscany-villas-sant-anna.jpg") center center;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    border-radius: 0px;
+    color: white;
+    font-family: Narkisim, Times New Roman, serif;
+    text-shadow: 2px 2px 6px rgb(140, 125, 100);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+    .jumbotron h1 h2 {
+        font-size: 10rem;
+        font-weight: 900;
+        margin-top: 800px;
+        line-height: 2;
+    }
+
+h1 {
+    text-shadow: 2px 2px 4px rgb(140, 125, 100);
+}
+
+/******LOCATIONS???******/
+.location-rows {
+    padding: 5px;
+}
+
+location-rows-image-right {
+    min-width: 900px;
+    height: auto;
+    float: right;
+}
+
+location-rows-image-right {
+    min-width: 900px;
+    height: auto;
+    float: left;
+}
+
+.reviews {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*shadow dimensions: 2px | shadow blur | shadow color;*/
+    text-shadow: 2px 2px 4px rgb(140, 125, 100);
+    padding: 20px;
+    margin: 20px;
+}
+
+
 #myCarousel {
-    height: 300px;
-    margin-top: 0px;
-    margin-bottom: 10px;
+    height: 100%;
+    overflow: hidden;
 }
 
     #myCarousel img {
-       height: 600px;
-       width:100%;
+        height: 600px;
+        width: 100%;
     }
 
-    #showcase glyphicon{
-        color:white;
+    #myCarousel h2 {
+        margin-top: 10px;
+        padding-top: 0px;
     }
 
-footer {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top:30px;
-    padding-top: 2px;
-    line-height: 1px;
-    background-color:none;
-    color:rgbA(89, 75, 54, .5);
+#showcase-stars {
+    color: white;
+    margin-top: 0px;
 }
 
+/******DETAILS******/
+.checkerboard-image {
+    box-shadow: 04px 10px 0 rgbA(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,-.10);
+}
+
+checkerboard-text {
+    padding: 40px 3px 0 3px;
+}
+
+#contacts {
+    line-height: 1;
+}
+
+input:focus {
+    background-color: lightblue;
+}
 
 
 /*ul {

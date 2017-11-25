@@ -13,8 +13,8 @@
     <!-- **************************************************************************************************************** -->
     <!-- NAVIGATION -->
     <!-- **************************************************************************************************************** -->
-    <nav class="navbar navbar-default navvy">
-        <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top navvy">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -29,34 +29,18 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="Amenities.html">Amenities<span class="sr-only">(current)</span></a></li>
-                    <li><a href="Locations.html">Villa Locations</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Amenities.html">Amenities</a></li>
+                    <li><a href="Locations.html">Locations</a></li>
                     <li><a href="Details.html">Trip Planning</a></li>
                 </ul>
-                <form class="navbar-form navbar-left">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
 
     <!-- **************************************************************************************************************** -->
-    <!-- AMENITIES -->
+    <!-- AMENITIES & REVIEWS -->
     <!-- **************************************************************************************************************** -->
-    <!-- END CHECKERBOARD -->
-    <!-- **************************************************************************************************************** -->
-    <!-- REVIEWS/NAVY -->
-    <!--<div class="navyrow">
-        <h3>REVIEWS</h3>
-        <p>What our customers have to say...</p>
-    </div>-->
-    <!-- *************************************************************************************************************** -->
-    <!-- REVIEWS/CAROUSEL/WHITE -->
-    <!-- *************************************************************************************************************** -->
-
     <div class="bs-example">
         <!--<data-ride: browser will start the carousel when page loads-->
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -67,12 +51,18 @@
                 <li data-target="#myCarousel" data-slide-to="2"></li>
                 <li data-target="#myCarousel" data-slide-to="3"></li>
                 <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
             </ol>
             <!-- Wrapper for carousel items -->
             <div class="carousel-inner">
                 <div class="item active">
                     <img src="Images/jolene-hardy-lobby.jpg" alt="Lobby">
                     <div class="carousel-caption d-none d-md-block">
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+
                         <h2>I love it!I love it!I love it!</h2>
                         <p>Jolene Hardy, Avid Napper</p>
                     </div>
@@ -80,6 +70,11 @@
                 <div class="item">
                     <img src="Images/heidi-sandstrom-shopping.jpg" alt="Shopping Mall">
                     <div class="carousel-caption d-none d-md-block">
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+
                         <h2>Bring empty suitcases, the shopping is wondrous!</h2>
                         <p>Heidi Sandstrom, Professional Shopper</p>
                     </div>
@@ -87,6 +82,11 @@
                 <div class="item">
                     <img src="Images/vita-vilcina-3217.jpg" alt="Coffee Shop" />
                     <div class="carousel-caption d-none d-md-block">
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+
                         <h2>I enjoyed every minute!</h2>
                         <p>Michael Smith, Coffee Coneissour</p>
                     </div>
@@ -94,8 +94,25 @@
                 <div class="item">
                     <img src="Images/dimitry-anikin-383611.jpg" alt="Town by the Sea" />
                     <div class="carousel-caption d-none d-md-block">
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+
                         <h2>You must spend time visiting the towns!</h2>
                         <p>Nicole Hanson, Author</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="Images/TuscanyCountryside.jpeg" alt="A Vineyard"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
+
+                        <h2>So much to do, see the finest Art, food, wine!</h2>
+                        <p>Polly Albrecht, Professional</p>
                     </div>
                 </div>
 
@@ -109,35 +126,14 @@
             </div>
         </div>
     </div>
-    <!-- **************************************************************************************************************** -->
-    <!-- **************************************************************************************************************** -->
-    <!-- **************************************************************************************************************** -->
-    <!-- SHOWCASE HEADER-->
-    <!-- **************************************************************************************************************** -->
-    <section class="showcase">
-        <div class="page-header">
-            <h1><span class="highlight">Reviews</span><small> What our guest have to say.</small></h1>
-            <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
-            <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
-            <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
-            <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
-            <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
-        </div>
-    </section>
-
-    <!-- **************************************************************************************************************** -->
-    <!-- FOOTER -->
-    <!-- **************************************************************************************************************** -->
+    <!--FOOTER-->
     <div class="container">
         <footer>
-            <span class="glyphicon glyphicon-chevron-up" aria-hidden="false"></span>
             <p>Created by: Holly N. Little</p>
             <p>Not at all copyrighted. &copy;</p>
-            <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
-            <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
-            <span class="glyphicon glyphicon-star" id="star" aria-hidden="true"></span>
         </footer>
     </div>
+    <!-- **************************************************************************************************************** -->
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
